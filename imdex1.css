@@ -1,0 +1,27 @@
+.box {
+    width: 300px;
+    height: 150px;
+    margin: 20px;
+    border: 2px solid red;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.box1 {
+    border-radius: 10% / 50%;
+    background-color: lightgreen;
+}
+
+.box2 {
+    border-radius: 120px / 100px 10px;
+    background-color: lightblue;
+}
+.box3 {
+    border-radius: 50% 10em / 10% 20em;
+    background-color: pink;
+}
+.box4 {
+    border-radius: 100px 10em 120px / 30%;
+    background-color: cyan;
+}
